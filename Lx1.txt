@@ -1,0 +1,27 @@
+C#企业级开发技术练习1答题卡
+
+班级：   信息管理2  
+姓名：    彭宇乐 
+学号：    20190307228 
+
+注：请将答案放置在序号下方。*/
+
+（一）
+string ds =“2020/2/20 10:10:20”;
+
+DateTime dt = DateTime. Parse (ds) ;
+
+dt = dt. AddDays (25) . AddMinut es (480) ;
+
+Console. WriteLine($" 25天后: {dt. Year}年{dt . Month}月{dt. Day}日_ {dt. TimeOfDay}");
+
+
+
+（二）
+string ds =“2020/2/20 10:10:20”;
+
+DateTime dt = DateTime. Parse (ds) ;
+
+dt = dt. AddDays (25) . AddMinut es (480) ;
+
+Console. WriteLine($" 25天前: {dt. Year}年{dt . Month}月{dt. Day}日_ {dt. TimeOfDay}");
